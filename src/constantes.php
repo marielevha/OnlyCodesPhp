@@ -18,8 +18,8 @@ echo ANOTHER_CONST;  // affiche "Bonjour le monde. Aurevoir le monde !"
 echo ("</br>"); // Saut de ligne
 
 // Tableaux constant : Méthode 1
-define('ANIMALS_1', array('chien', 'Chat', 'Oiseaux'));
-echo ANIMALS_2[1]; // affiche "Chien"
+define('ANIMALS_1', array('Chien', 'Chat', 'Oiseaux'));
+echo ANIMALS_1[0]; // affiche "Chien"
 echo ("</br>"); // Saut de ligne
 
 // Tableaux constant : Méthode 2
